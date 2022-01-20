@@ -40,6 +40,7 @@ blocks:
             - brew install applesimutils
             - cache restore
             - cd ios
+            - export LC_ALL=en_US.UTF-8
             - pod install
             - cd ..
             - yarn run detox-clean-and-build-cache
