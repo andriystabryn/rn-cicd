@@ -24,7 +24,7 @@ jobs:
 
       - name: Install yarn
         run: npm install -g yarn
-
+      
       - name: Install dependencies
         run: |
           yarn install
@@ -32,10 +32,9 @@ jobs:
           export LC_ALL=en_US.UTF-8
           pod install
           cd ../
-
+      
       - name: Lint & test
         run: |
-          yarn install
           yarn run lint
           yarn test
 
