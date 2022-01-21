@@ -1,4 +1,4 @@
-## semaphoreci
+## semaphoreci opensurce
 System:
     OS: macOS 11.5.1
     CPU: (4) x64 Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
@@ -38,3 +38,6 @@ System:
     Ruby: 2.6.8 - /Users/semaphore/.rbenv/shims/ruby
   Databases:
     SQLite: 3.32.3 - /usr/bin/sqlite3
+
+
+## semaphoreci Pro
