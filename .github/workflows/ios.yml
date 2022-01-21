@@ -25,9 +25,6 @@ jobs:
       - name: Install yarn
         run: npm install -g yarn
 
-      # - name: Install firebase CLI
-      #   run: npm install -g firebase-tools
-
       - name: Install dependencies
         run: |
           yarn install
@@ -36,38 +33,14 @@ jobs:
           pod install
           cd ../
 
-      # - name: Decode cert file
-      #   run: echo -n "$P12_CODE_SIGNING_CERT_BASE64" | base64 -d > ./cert.p12
-      #   env:
-      #     P12_CODE_SIGNING_CERT_BASE64: $
-
-      # - name: Decode adhoc prov file
-      #   run: echo -n "$MOBILEPROVISION_ADHOC_BASE64" | base64 -d > ./mobileProvisionAdhoc.mobileprovision
-      #   env:
-      #     MOBILEPROVISION_ADHOC_BASE64: $
-      
-      # - name: Decode appstore prov file
-      #   run: echo -n "$MOBILEPROVISION_APPSTORE_BASE64" | base64 -d > ./mobileProvisionAppstore.mobileprovision
-      #   env:
-      #     MOBILEPROVISION_APPSTORE_BASE64: $
-      
-      # - name: Decode widget adhoc prov file
-      #   run: echo -n "$MOBILEPROVISION_WIDGET_ADHOC_BASE64" | base64 -d > ./mobileProvisionWidgetAdhoc.mobileprovision
-      #   env:
-      #     MOBILEPROVISION_WIDGET_ADHOC_BASE64: $
-      
-      # - name: Decode widget appstore prov file
-      #   run: echo -n "$MOBILEPROVISION_WIDGET_APPSTORE_BASE64" | base64 -d > ./mobileProvisionWidgetAppstore.mobileprovision
-      #   env:
-      #     MOBILEPROVISION_WIDGET_APPSTORE_BASE64: $
+      - name: Lint & test
+        run: |
+          yarn install
+          yarn run lint
+          yarn test
 
       - name: Bundle install
         run: |
           xcodebuild ONLY_ACTIVE_ARCH=YES -workspace ios/MyApp.xcworkspace -scheme MyApp -configuration Release -sdk iphonesimulator -derivedDataPath ios/build -UseModernBuildSystem=YES
           mkdir Payload && cp -r ios/build/Build/Products/Release-iphonesimulator/MyApp.app Payload/
           zip -r Payload.zip Payload && mv Payload.zip MyApp.ipa
-
-      # - name: Fastlane
-      #   run: bundle exec fastlane ios distribute_staging
-      #   env:
-      #     FIREBASE_TOKEN: $
