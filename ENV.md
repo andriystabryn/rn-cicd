@@ -159,3 +159,58 @@ System:
     Ruby: 2.6.5 - /Users/vagrant/.rbenv/shims/ruby
   Databases:
     SQLite: 3.36.0 - /usr/bin/sqlite3
+
+
+## Codemagic
+  System:
+    OS: macOS 11.6.2
+    CPU: (4) x64 Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
+    Memory: 3.85 GB / 8.00 GB
+    Shell: 5.8 - /bin/zsh
+  Binaries:
+    Node: 14.15.5 - /usr/local/bin/node
+    Yarn: 1.22.17 - /usr/local/bin/yarn
+    npm: 8.1.4 - /usr/local/bin/npm
+  Managers:
+    CocoaPods: 1.11.2 - /Users/builder/.rbenv/shims/pod
+    Composer: 2.0.9 - /usr/local/bin/composer
+    Gradle: 7.3.1 - /usr/local/bin/gradle
+    Homebrew: 3.3.9 - /usr/local/bin/brew
+    Maven: 3.8.4 - /usr/local/bin/mvn
+    pip3: 21.1.2 - ~/.pyenv/versions/3.8.7/bin/pip3
+    RubyGems: 3.2.33 - /Users/builder/.rbenv/shims/gem
+  Utilities:
+    CMake: 3.22.1 - /usr/local/bin/cmake
+    Make: 3.81 - /usr/bin/make
+    GCC: 13.2. - /usr/bin/gcc
+    Git: 2.34.1 - /usr/local/bin/git
+    Clang: 13.0.0 - /usr/bin/clang
+    Mercurial: 6.0 - /usr/local/bin/hg
+  Servers:
+    Apache: 2.4.51 - /usr/sbin/apachectl
+  Virtualization:
+    Docker: 20.10.2 - /usr/local/bin/docker
+  SDKs:
+    iOS SDK:
+      Platforms: DriverKit 21.2, iOS 15.2, macOS 12.1, tvOS 15.2, watchOS 8.3
+    Android SDK:
+      API Levels: 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32
+      Build Tools: 19.1.0, 20.0.0, 21.1.2, 22.0.1, 23.0.1, 23.0.2, 23.0.3, 24.0.0, 24.0.1, 24.0.2, 24.0.3, 25.0.0, 25.0.1, 25.0.2, 25.0.3, 26.0.0, 26.0.1, 26.0.2, 26.0.3, 27.0.0, 27.0.1, 27.0.2, 27.0.3, 28.0.0, 28.0.1, 28.0.2, 28.0.3, 29.0.0, 29.0.1, 29.0.2, 29.0.3, 30.0.0, 30.0.1, 30.0.2, 30.0.3, 31.0.0, 32.0.0, 32.0.0
+      System Images: android-29 | Google Play Intel x86 Atom
+      Android NDK: 23.1.7779620
+  IDEs:
+    Android Studio: 4.1 AI-201.8743.12.41.7042882
+    Nano: 2.0.6 - /usr/bin/nano
+    Vim: 8.2 - /usr/bin/vim
+    Xcode: 13.2.1/13C100 - /usr/bin/xcodebuild
+  Languages:
+    Bash: 3.2.57 - /bin/bash
+    Go: 1.17.5 - /usr/local/bin/go
+    Java: 11.0.13 - /usr/bin/javac
+    Perl: 5.30.2 - /usr/bin/perl
+    PHP: 7.3.29 - /usr/bin/php
+    Python: 3.8.7 - /Users/builder/.pyenv/versions/3.8.7/bin/python
+    Python3: 3.8.7 - /Users/builder/.pyenv/versions/3.8.7/bin/python3
+    Ruby: 2.7.2 - /Users/builder/.rbenv/shims/ruby
+  Databases:
+    SQLite: 3.32.2 - /usr/local/share/android-sdk/platform-tools/sqlite3
