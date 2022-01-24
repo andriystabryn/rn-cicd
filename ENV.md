@@ -108,3 +108,54 @@ System:
     Edge: 97.0.1072.62
     Firefox: 96.0.1
     Safari: 15.2
+
+
+## Bitrise
+  System:
+    OS: macOS 12.0.1
+    CPU: (8) x64 Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
+    Memory: 30.20 GB / 35.00 GB
+    Shell: 3.2.57 - /bin/bash
+  Binaries:
+    Node: 12.22.6 - /usr/local/bin/node
+    Yarn: 1.22.11 - /usr/local/bin/yarn
+    npm: 6.14.15 - /usr/local/bin/npm
+    Watchman: 2021.08.30.00 - /usr/local/bin/watchman
+  Managers:
+    CocoaPods: 1.11.2 - /Users/vagrant/.rbenv/shims/pod
+    Gradle: 7.2 - /usr/local/bin/gradle
+    Homebrew: 3.3.9 - /usr/local/bin/brew
+    Maven: 3.8.2 - /usr/local/bin/mvn
+    pip3: 21.2.4 - /usr/local/bin/pip3
+    RubyGems: 3.0.3 - /Users/vagrant/.rbenv/shims/gem
+  Utilities:
+    CMake: 3.21.2 - /usr/local/bin/cmake
+    Make: 3.81 - /usr/bin/make
+    GCC: 13.2.1. - /usr/bin/gcc
+    Git: 2.33.0 - /usr/local/bin/git
+    Clang: 13.0.0 - /usr/bin/clang
+    Mercurial: 5.9.1 - /usr/local/bin/hg
+  Servers:
+    Apache: 2.4.48 - /usr/sbin/apachectl
+  SDKs:
+    iOS SDK:
+      Platforms: DriverKit 21.2, iOS 15.2, macOS 12.1, tvOS 15.2, watchOS 8.3
+    Android SDK:
+      API Levels: 15, 17, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30
+      Build Tools: 19.1.0, 21.1.2, 22.0.1, 23.0.3, 24.0.3, 25.0.3, 26.0.1, 26.0.2, 27.0.0, 27.0.1, 27.0.2, 27.0.3, 28.0.0, 28.0.1, 28.0.2, 28.0.3, 29.0.0, 29.0.1, 29.0.2, 29.0.3, 30.0.0, 30.0.1, 30.0.2, 30.0.3
+      System Images: android-26 | Google APIs Intel x86 Atom, android-28 | Google APIs Intel x86 Atom_64, android-29 | Google APIs Intel x86 Atom, android-30 | Google APIs Intel x86 Atom
+      Android NDK: 21.4.7075529
+  IDEs:
+    Nano: 2.0.6 - /usr/bin/nano
+    Vim: 8.2 - /usr/bin/vim
+    Xcode: 13.2.1/13C100 - /usr/bin/xcodebuild
+  Languages:
+    Bash: 3.2.57 - /bin/bash
+    Go: 1.16.7 - /usr/local/bin/go
+    Java: 11.0.11 - /Users/vagrant/.jenv/shims/javac
+    Perl: 5.30.3 - /usr/bin/perl
+    Python: 2.7.18 - /usr/bin/python
+    Python3: 3.9.7 - /usr/local/bin/python3
+    Ruby: 2.6.5 - /Users/vagrant/.rbenv/shims/ruby
+  Databases:
+    SQLite: 3.36.0 - /usr/bin/sqlite3
