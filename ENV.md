@@ -4,8 +4,8 @@
 | semaphoreci | 18:11 | https://andriystabryn.semaphoreci.com/workflows/edf0281c-6f3c-4230-842d-b30002e6dabd?pipeline_id=c596317c-bb0a-42f8-b2d8-f5bde5ec7368 | yarn install & pod install & build & artifact push |
 | GitHub | 33:11 | https://github.com/andriystabryn/rn-cicd/runs/4896453645?check_suite_focus=true | yarn install & pod install & build  |
 | appcircle | not finished (errors) |  |
-| bitrise | 09:05 | https://app.bitrise.io/build/927ec155-8d1e-4b5f-99b6-be353456442b#?tab=log | yarn install & pod install & build &  |
-| codemagic |  |  |
+| bitrise | 09:05 | https://app.bitrise.io/build/927ec155-8d1e-4b5f-99b6-be353456442b#?tab=log | yarn install & pod install & build & artifact export |
+| codemagic | 18:04 (probably unstable) | https://codemagic.io/app/61ee9d994d0eb94abcddf07d/build/61eeba1c298f33a38ebc4f74 - (!) haven't found a way to share build publically with free account | yarn install & pod install & build & artifact export
 | AWS | required to buy a mac  |  |
 | circleci | required a paid account | https://app.circleci.com/pipelines/github/andriystabryn/rn-cicd |  |
 
