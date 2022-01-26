@@ -10,6 +10,7 @@
 | circleci | required a paid account | https://app.circleci.com/pipelines/github/andriystabryn/rn-cicd |  |
 
 ## semaphoreci opensurce
+```
 System:
     OS: macOS 11.5.1
     CPU: (4) x64 Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz
@@ -49,9 +50,10 @@ System:
     Ruby: 2.6.8 - /Users/semaphore/.rbenv/shims/ruby
   Databases:
     SQLite: 3.32.3 - /usr/bin/sqlite3
-
+```
 
 ## GitHub
+```
 System:
     OS: macOS 11.6.2
     CPU: (3) x64 Intel(R) Xeon(R) CPU E5-1650 v2 @ 3.50GHz
@@ -112,9 +114,10 @@ System:
     Edge: 97.0.1072.62
     Firefox: 96.0.1
     Safari: 15.2
-
+```
 
 ## Bitrise
+```
   System:
     OS: macOS 12.0.1
     CPU: (8) x64 Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
@@ -163,9 +166,10 @@ System:
     Ruby: 2.6.5 - /Users/vagrant/.rbenv/shims/ruby
   Databases:
     SQLite: 3.36.0 - /usr/bin/sqlite3
-
+```
 
 ## Codemagic
+```
   System:
     OS: macOS 11.6.2
     CPU: (4) x64 Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz
@@ -218,3 +222,4 @@ System:
     Ruby: 2.7.2 - /Users/builder/.rbenv/shims/ruby
   Databases:
     SQLite: 3.32.2 - /usr/local/share/android-sdk/platform-tools/sqlite3
+```
